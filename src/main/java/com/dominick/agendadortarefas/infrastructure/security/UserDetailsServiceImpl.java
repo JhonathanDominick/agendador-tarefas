@@ -3,8 +3,7 @@ package com.dominick.agendadortarefas.infrastructure.security;
 
 import com.dominick.agendadortarefas.business.dto.UsuarioDTO;
 import com.dominick.agendadortarefas.infrastructure.client.UsuarioClient;
-import com.dominick.cadastrausuario.infrastructure.entity.Usuario;
-import com.dominick.cadastrausuario.infrastructure.repository.UsuarioRepository;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
